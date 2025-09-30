@@ -1,4 +1,4 @@
-# 免费VPN节点 | 9月26日20.1M/S|免费SSR/V2ray/Clash/Shadowrocket节点推荐，在线Clash机场梯子购买推荐  更新时间 2025-09-26 20:37:45
+# 免费VPN节点 | 9月30日18.4M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐  更新时间 2025-09-30 09:48:43
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freevpnssr.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -7,27 +7,27 @@
 
 ## 订阅链接：
 
-### Clash订阅链接
+### 免费Clash节点订阅链接
 
-- https://freevpnssr.github.io/uploads/2025/09/0-20250926.yaml
-- https://freevpnssr.github.io/uploads/2025/09/1-20250926.yaml
-- https://freevpnssr.github.io/uploads/2025/09/2-20250926.yaml
-- https://freevpnssr.github.io/uploads/2025/09/3-20250926.yaml
-- https://freevpnssr.github.io/uploads/2025/09/4-20250926.yaml
+- https://freevpnssr.github.io/uploads/2025/09/0-20250930.yaml
+- https://freevpnssr.github.io/uploads/2025/09/1-20250930.yaml
+- https://freevpnssr.github.io/uploads/2025/09/2-20250930.yaml
+- https://freevpnssr.github.io/uploads/2025/09/3-20250930.yaml
+- https://freevpnssr.github.io/uploads/2025/09/4-20250930.yaml
 
-### V2ray订阅链接
+### 免费V2ray节点订阅链接
 
-- https://freevpnssr.github.io/uploads/2025/09/0-20250926.txt
-- https://freevpnssr.github.io/uploads/2025/09/1-20250926.txt
-- https://freevpnssr.github.io/uploads/2025/09/2-20250926.txt
-- https://freevpnssr.github.io/uploads/2025/09/3-20250926.txt
-- https://freevpnssr.github.io/uploads/2025/09/4-20250926.txt
+- https://freevpnssr.github.io/uploads/2025/09/0-20250930.txt
+- https://freevpnssr.github.io/uploads/2025/09/1-20250930.txt
+- https://freevpnssr.github.io/uploads/2025/09/2-20250930.txt
+- https://freevpnssr.github.io/uploads/2025/09/3-20250930.txt
+- https://freevpnssr.github.io/uploads/2025/09/4-20250930.txt
 
-### Sing-box订阅链接
+### 免费Sing-box节点订阅链接
 
-- https://freevpnssr.github.io/uploads/2025/09/20250926.json
+- https://freevpnssr.github.io/uploads/2025/09/20250930.json
 
-## 更多clash节点订阅 ：
+## 更多Clash节点订阅 ：
 
 
 ### 高速机场推荐1【<a href="https://www.nfsq.us/#/register?code=UTg5SIHV" target="_blank">农夫山泉</a>】
