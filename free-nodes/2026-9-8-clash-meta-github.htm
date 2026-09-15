@@ -374,27 +374,18 @@ sudo apt install golang  </span><span><span class="hljs-comment"># Ubuntu</span>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/clash-verge-rev-node-2026-9-7.htm">免费VPN节点 | 9月7日19.6M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/clash-verge-rev-github-2026-9-9.htm">免费VPN节点 | 9月9日18.1M/S|免费SSR节点/Singbox节点/Clash节点/Trojan节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekobox 如何设置分流规则？</h5></div>
-    <div class="panel-body">
-        Nekobox 提供图形化规则编辑界面，可基于 IP、域名、地区等条件创建分流规则。例如可设置国内直连、国外代理、特定网站走特定节点，操作直观。<hr />    </div>
-</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>当 V2Ray 报错 inbound 没有监听，可能是哪些配置问题？</h5></div>
     <div class="panel-body">
         检查 inbound 配置是否包含正确的 port、protocol 与 listen 字段；确认没有端口冲突或权限问题（非 root 绑定 1024 以下端口会失败）；查看日志中具体错误信息并根据提示修复配置。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 在使用订阅时要注意什么？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 的节点导入是否支持批量 URL？</h5></div>
     <div class="panel-body">
-        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 服务器启动后提示端口被占用，该如何处理？</h5></div>
-    <div class="panel-body">
-        先用 netstat 或 ss 工具查看占用该端口的进程（例如 `ss -ltnp`），确认是旧进程或其他服务占用。停止占用进程或修改 V2Ray 配置端口，然后重启服务并检查防火墙规则是否开放了新端口。<hr />    </div>
+        支持。Nekoray 可通过订阅 URL 批量导入节点，并定期更新。用户无需手动添加每个节点，保证节点列表始终最新，提高使用效率和便利性。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 的节点导入方式有哪些？</h5></div>
@@ -402,9 +393,9 @@ sudo apt install golang  </span><span><span class="hljs-comment"># Ubuntu</span>
         WinXray 支持手动添加节点、从 URL 订阅导入节点，以及批量导入 JSON 配置文件。用户可以直接复制订阅地址或粘贴节点链接，程序会自动解析并添加到节点列表中，操作十分便捷。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 是什么？</h5></div>
+    <div class="panel-heading"><h5>Shadowrocket 在使用订阅时要注意什么？</h5></div>
     <div class="panel-body">
-        Hiddify Next 是基于 sing-box 的多协议代理客户端，适用于 Android、Windows 等平台。它整合了 Vless、VMess、Trojan、Hysteria 等协议，支持自动测速和订阅转换，是移动端非常流行的代理工具。<hr />    </div>
+        在 Shadowrocket 中添加订阅时，应确保链接以 https 开头且格式正确。此外，若节点更新失败，可尝试关闭缓存或重新获取订阅链接，以保证配置文件同步最新节点数据。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Vmess 节点可以通过 CDN 吗？</h5></div>
@@ -412,19 +403,29 @@ sudo apt install golang  </span><span><span class="hljs-comment"># Ubuntu</span>
         可以。Vmess 可通过 WebSocket 与 CDN 结合使用，只需将传输方式设置为 WS 并配置 host 与 path，即可实现流量中转。这样既能隐藏真实服务器，又能提升连接速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekobox 如何设置分流规则？</h5></div>
+    <div class="panel-body">
+        Nekobox 提供图形化规则编辑界面，可基于 IP、域名、地区等条件创建分流规则。例如可设置国内直连、国外代理、特定网站走特定节点，操作直观。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hiddify Next 是什么？</h5></div>
+    <div class="panel-body">
+        Hiddify Next 是基于 sing-box 的多协议代理客户端，适用于 Android、Windows 等平台。它整合了 Vless、VMess、Trojan、Hysteria 等协议，支持自动测速和订阅转换，是移动端非常流行的代理工具。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 的策略组可按 IP 段分流吗？</h5></div>
     <div class="panel-body">
         支持。可通过 IP 段匹配将流量分流到指定节点。结合策略组，可实现国内直连、国外代理或游戏加速，实现精细化流量管理和优化网络访问。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何使用 Docker 部署 sing-box 或 v2ray？</h5></div>
+    <div class="panel-heading"><h5>V2Ray 服务器启动后提示端口被占用，该如何处理？</h5></div>
     <div class="panel-body">
-        选择官方或社区维护的 Docker 镜像，编写 docker-compose.yml 指定配置文件挂载、网络模式与端口映射。使用容器管理可以隔离运行环境、便于日志采集并与反向代理（如 Nginx）协同工作。<hr />    </div>
+        先用 netstat 或 ss 工具查看占用该端口的进程（例如 `ss -ltnp`），确认是旧进程或其他服务占用。停止占用进程或修改 V2Ray 配置端口，然后重启服务并检查防火墙规则是否开放了新端口。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 的节点导入是否支持批量 URL？</h5></div>
+    <div class="panel-heading"><h5>如何使用 Docker 部署 sing-box 或 v2ray？</h5></div>
     <div class="panel-body">
-        支持。Nekoray 可通过订阅 URL 批量导入节点，并定期更新。用户无需手动添加每个节点，保证节点列表始终最新，提高使用效率和便利性。    </div>
+        选择官方或社区维护的 Docker 镜像，编写 docker-compose.yml 指定配置文件挂载、网络模式与端口映射。使用容器管理可以隔离运行环境、便于日志采集并与反向代理（如 Nginx）协同工作。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -472,16 +473,16 @@ sudo apt install golang  </span><span><span class="hljs-comment"># Ubuntu</span>
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-windows-2026-8-13.htm" title="免费VPN节点 | 8月13日21M/S|免费SSR节点/Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月13日21M/S|免费SSR节点/Trojan节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-25.htm" title="免费VPN节点 | 8月25日21.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月25日21.8M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-8-clash-meta-github.htm" title="免费VPN节点 | 9月8日20.9M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月8日20.9M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-16-clash-stash-node.htm" title="免费VPN节点 | 8月16日18.7M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月16日18.7M/S|免费Clash节点/V2ray节点/Singbox节点/SSR节点/Shadowrocket节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-15.htm" title="免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-10-clash-stash-node.htm" title="免费VPN节点 | 8月10日21.4M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月10日21.4M/S|免费Clash节点/Shadowrocket节点/Singbox节点/V2ray节点/Trojan节点/SSR节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-14-clash-node-daily-updates.htm" title="免费VPN节点 | 8月14日20.9M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月14日20.9M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-24-clash-meta-github.htm" title="免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-9-13.htm" title="免费VPN节点 | 9月13日21M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月13日21M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-9-7.htm" title="免费VPN节点 | 9月7日19.6M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月7日19.6M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-12-clash-node-daily-updates.htm" title="免费VPN节点 | 8月12日22.7M/S|免费V2ray节点/Singbox节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月12日22.7M/S|免费V2ray节点/Singbox节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-8-29.htm" title="免费VPN节点 | 8月29日20.5M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/V2ray节点/Clash节点/SSR节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月29日20.5M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/V2ray节点/Clash节点/SSR节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-6-clash-verge-rev-node-share.htm" title="免费VPN节点 | 8月6日20.6M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月6日20.6M/S|免费Clash节点/Trojan节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-2-clash-stash-node.htm" title="免费VPN节点 | 9月2日21.6M/S|免费Trojan节点/V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月2日21.6M/S|免费Trojan节点/V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/clash-stash-2026-8-9.htm" title="免费VPN节点 | 8月9日20.8M/S|免费Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月9日20.8M/S|免费Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-24-clash-meta-github.htm" title="免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-28-clash-verge-rev-nodes.htm" title="免费VPN节点 | 8月28日18.3M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月28日18.3M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-2026-9-1.htm" title="免费VPN节点 | 9月1日20.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点/SSR节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月1日20.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点/SSR节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -493,7 +494,7 @@ sudo apt install golang  </span><span><span class="hljs-comment"># Ubuntu</span>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
+                <h4><span class="badge" style="float: right;">15</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>

@@ -213,19 +213,14 @@ IP-CIDR,8.8.8.8/32,DIRECT</pre></div></li></ul><h3>3.2 耗电控制技巧</h3><u
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>如何导入 Clash 订阅链接？</h5></div>
+    <div class="panel-body">
+        打开 Clash 客户端，进入 Profiles（配置文件）页面，粘贴提供的订阅链接并点击下载。Clash 会自动更新节点列表，用户可在 Profiles 中选择对应配置启用，从而快速切换不同代理线路。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>VMess 的 WebSocket + TLS 配置有哪些好处？</h5></div>
     <div class="panel-body">
         WebSocket + TLS 可伪装为普通 HTTPS 流量，增强抗封锁能力和隐蔽性。结合域名伪装和策略组使用，可以在高封锁网络中保持稳定、高速和安全的网络访问体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 是否支持多出口自动选择？</h5></div>
-    <div class="panel-body">
-        支持。通过配置路由规则和策略组，Sing-box 可以自动判断流量类型并选择最佳出口，实现智能分流和多节点负载均衡，提高访问效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>QuantumultX 的重写规则可实现哪些功能？</h5></div>
-    <div class="panel-body">
-        QuantumultX 的重写规则支持请求头修改、响应内容修改、广告屏蔽及自动跳转。结合脚本可实现自动签到、流量统计和定制化网络访问，极大增强客户端灵活性。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLess + Reality 的优势主要体现在哪些方面？</h5></div>
@@ -233,9 +228,14 @@ IP-CIDR,8.8.8.8/32,DIRECT</pre></div></li></ul><h3>3.2 耗电控制技巧</h3><u
         Reality 采用非传统 TLS 流量伪装方式，通过模拟目标网站证书与握手特征来隐藏代理特征，相较于普通 VLess + TLS 更难被识别。它还具备更高的性能与更少的明文特征，适合高安全需求环境。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 的用户管理可以分组吗？</h5></div>
+    <div class="panel-heading"><h5>Nekoray 支持 Trojan 吗？</h5></div>
     <div class="panel-body">
-        支持用户分组管理，可为不同组设置独立带宽、流量配额和节点访问权限。分组管理便于大规模用户维护，确保每个组的网络资源合理分配，提升整体管理效率。<hr />    </div>
+        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Potatso Lite 支持订阅链接导入吗？</h5></div>
+    <div class="panel-body">
+        Potatso Lite 不支持自动订阅功能，用户需手动添加节点。如果想批量导入订阅，可使用其他客户端生成节点二维码，再手动扫描添加。适合轻量使用者。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 的分流规则如何支持视频加速？</h5></div>
@@ -248,19 +248,19 @@ IP-CIDR,8.8.8.8/32,DIRECT</pre></div></li></ul><h3>3.2 耗电控制技巧</h3><u
         根据网络封锁情况选择合适协议和混淆组合，如 tls1.2_ticket_auth 模拟 HTTPS 流量。合理组合可提高抗封锁能力和稳定性，保证节点长期可用并优化网络连接。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何导入 Clash 订阅链接？</h5></div>
+    <div class="panel-heading"><h5>QuantumultX 的重写规则可实现哪些功能？</h5></div>
     <div class="panel-body">
-        打开 Clash 客户端，进入 Profiles（配置文件）页面，粘贴提供的订阅链接并点击下载。Clash 会自动更新节点列表，用户可在 Profiles 中选择对应配置启用，从而快速切换不同代理线路。<hr />    </div>
+        QuantumultX 的重写规则支持请求头修改、响应内容修改、广告屏蔽及自动跳转。结合脚本可实现自动签到、流量统计和定制化网络访问，极大增强客户端灵活性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 支持订阅链接导入吗？</h5></div>
+    <div class="panel-heading"><h5>Hiddify Next 的用户管理可以分组吗？</h5></div>
     <div class="panel-body">
-        Potatso Lite 不支持自动订阅功能，用户需手动添加节点。如果想批量导入订阅，可使用其他客户端生成节点二维码，再手动扫描添加。适合轻量使用者。<hr />    </div>
+        支持用户分组管理，可为不同组设置独立带宽、流量配额和节点访问权限。分组管理便于大规模用户维护，确保每个组的网络资源合理分配，提升整体管理效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 支持 Trojan 吗？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 是否支持多出口自动选择？</h5></div>
     <div class="panel-body">
-        支持。Nekoray 基于 sing-box 核心，能兼容 Trojan、Vmess、Vless、Hysteria2 等多种协议。用户可在同一界面中管理和切换不同类型节点，非常方便。    </div>
+        支持。通过配置路由规则和策略组，Sing-box 可以自动判断流量类型并选择最佳出口，实现智能分流和多节点负载均衡，提高访问效率。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -308,16 +308,16 @@ IP-CIDR,8.8.8.8/32,DIRECT</pre></div></li></ul><h3>3.2 耗电控制技巧</h3><u
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-9-3.htm" title="免费VPN节点 | 9月3日20M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月3日20M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-24-clash-meta-github.htm" title="免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月24日21.3M/S|免费SSR节点/Clash节点/Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-node-github-2026-8-17.htm" title="免费VPN节点 | 8月17日21.4M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月17日21.4M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-28-clash-verge-rev-nodes.htm" title="免费VPN节点 | 8月28日18.3M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月28日18.3M/S|免费SSR节点/Trojan节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-8-9.htm" title="免费VPN节点 | 8月9日20.8M/S|免费Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月9日20.8M/S|免费Singbox节点/SSR节点/Shadowrocket节点/V2ray节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-15.htm" title="免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-19.htm" title="免费VPN节点 | 8月19日22M/S|免费V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月19日22M/S|免费V2ray节点/SSR节点/Clash节点/Trojan节点/Shadowrocket节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-14-clash-node-daily-updates.htm" title="免费VPN节点 | 8月14日20.9M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月14日20.9M/S|免费Clash节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-node-2026-9-7.htm" title="免费VPN节点 | 9月7日19.6M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月7日19.6M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-22-free-node-subscribe.htm" title="免费VPN节点 | 8月22日20.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/Trojan节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月22日20.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/Trojan节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-6-clash-meta-github.htm" title="免费VPN节点 | 9月6日19.2M/S|免费Clash节点/Trojan节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月6日19.2M/S|免费Clash节点/Trojan节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-15.htm" title="免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月15日20.6M/S|免费Trojan节点/SSR节点/Clash节点/Singbox节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-31.htm" title="免费VPN节点 | 8月31日19.1M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月31日19.1M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Singbox节点/Clash节点/Trojan节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-stash-2026-9-15.htm" title="免费VPN节点 | 9月15日18.2M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月15日18.2M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-9-13.htm" title="免费VPN节点 | 9月13日21M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月13日21M/S|免费SSR节点/Clash节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-20-clash-verge-rev-node-github.htm" title="免费VPN节点 | 8月20日19.5M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月20日19.5M/S|免费Singbox节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-2-clash-stash-node.htm" title="免费VPN节点 | 9月2日21.6M/S|免费Trojan节点/V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 9月2日21.6M/S|免费Trojan节点/V2ray节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-26-clash-node-daily-updates.htm" title="免费VPN节点 | 8月26日21.1M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月26日21.1M/S|免费SSR节点/Singbox节点/Clash节点/Shadowrocket节点/Trojan节点/V2ray节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-verge-rev-github-2026-8-27.htm" title="免费VPN节点 | 8月27日20.3M/S|免费Trojan节点/Clash节点/Singbox节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐">免费VPN节点 | 8月27日20.3M/S|免费Trojan节点/Clash节点/Singbox节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，在线Clash机场梯子购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -329,7 +329,7 @@ IP-CIDR,8.8.8.8/32,DIRECT</pre></div></li></ul><h3>3.2 耗电控制技巧</h3><u
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
+                <h4><span class="badge" style="float: right;">15</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
